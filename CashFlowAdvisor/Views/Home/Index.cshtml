@@ -1,0 +1,9 @@
+﻿@model CashFlowViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Monthly Net CashFlow</h1>
+    <h3 class="display-4">@Model.NetCashFlow.ToString("C2")</h3>
+</div>
